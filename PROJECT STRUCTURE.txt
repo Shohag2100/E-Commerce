@@ -1,0 +1,67 @@
+ecommerce_project/
+├── manage.py
+├── requirements.txt
+├── .env.example
+├── ecommerce_project/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+├── users/
+│   ├── __init__.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── admin.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── forms.py
+│   ├── urls.py
+│   └── migrations/
+│       └── __init__.py
+├── store/
+│   ├── __init__.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── admin.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── urls.py
+│   ├── permissions.py
+│   ├── context_processors.py
+│   └── migrations/
+│       └── __init__.py
+├── payments/
+│   ├── __init__.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── admin.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── urls.py
+│   ├── stripe_handler.py
+│   └── migrations/
+│       └── __init__.py
+├── chat/
+│   ├── __init__.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── admin.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── urls.py
+│   ├── consumers.py
+│   ├── routing.py
+│   └── migrations/
+│       └── __init__.py
+├── static/
+│   └── css/
+├── media/
+│   ├── products/
+│   ├── profiles/
+│   └── categories/
+└── templates/
+    ├── store/
+    ├── users/
+    ├── chat/
+    └── payments/
