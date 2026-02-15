@@ -1,0 +1,55 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+build/
+dist/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Pyre/mypy
+.mypy_cache/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# dotenv
+.env
+.env.*
+
+# Python bytecode
+*.pyc
+
+# Misc
+.cache/
+*.log
